@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow v2 | AI Technical Co-Pilot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="cursor-glow"></div>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+    
+    <nav>
+        <div class="logo">TECHFLOW <span>v2</span></div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#commands">Commands</a>
+            <a href="#premium">Premium</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=1445053735444283414&permissions=8&scope=bot%20applications.commands" class="btn-primary">Add to Discord</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <h1>Elevate Your Code With <span class="gradient-text">AxonInnovA Tech AI</span></h1>
+            <p>The ultimate technical co-pilot for Discord. Debug, search, and learn with high-performance AI.</p>
+            <div class="hero-btns">
+                <a href="https://discord.com/oauth2/authorize?client_id=1445053735444283414&permissions=8&scope=bot%20applications.commands" class="btn-glow">Deploy to Server</a>
+                <a href="https://dsc.gg/axoninnova" class="btn-outline">Join Support</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="section-title" style="text-align: center; margin-bottom: 4rem;">
+            <h2 style="font-family: 'Orbitron', sans-serif; font-size: 2.5rem;">High-Performance <span class="gradient-text">Features</span></h2>
+            <p class="version-note">TechFlow v2 | Production-Ready AI Bot</p>
+            <p>Advanced tools built for developers and technical communities</p>
+        </div>
+        <div class="feature-grid">
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h3>AxonInnovA Tech AI</h3>
+                <p>Advanced technical intelligence providing instant answers to complex questions with in-depth technical accuracy.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🔍</div>
+                <h3>Smart Code Debugging</h3>
+                <p>Paste error messages and get AI-powered solutions. Receive fixed code snippets and detailed explanations in seconds.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🐙</div>
+                <h3>GitHub Integration</h3>
+                <p>Search and browse repositories directly from Discord. Instantly share code, documentation, and project info with your team.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🎮</div>
+                <h3>Play & Gamification</h3>
+                <p>Earn Gears through technical quizzes and climb the server leaderboards while you learn.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📚</div>
+                <h3>Learning Hub</h3>
+                <p>Curated resources for any programming language or tech topic. Learn from guides, tutorials, and best practices instantly.</p>
+            </div>
+            <div class="card">
+                <div class="icon">⚡</div>
+                <h3>Tech Stack Recommendations</h3>
+                <p>Get AI-powered technology stack suggestions for your project. Choose the best languages, frameworks, and tools instantly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="commands" style="padding: 6rem 5%; background: rgba(0, 0, 0, 0.3);">
+        <div class="section-title" style="text-align: center; margin-bottom: 4rem;">
+            <h2 style="font-family: 'Orbitron', sans-serif; font-size: 2.5rem;"><span class="gradient-text">Command</span> Center</h2>
+            <p>Interactive guide to all TechFlow capabilities</p>
+        </div>
+
+        <div class="command-nav">
+            <div class="cmd-dot active" data-target="ai-cmds" title="AI & Tech"></div>
+            <div class="cmd-dot" data-target="economy-cmds" title="Economy & Play"></div>
+            <div class="cmd-dot" data-target="utility-cmds" title="Utility & Info"></div>
+            <div class="cmd-dot" data-target="admin-cmds" title="Moderation"></div>
+        </div>
+
+        <div class="command-sections">
+            <!-- AI Section -->
+            <div id="ai-cmds" class="cmd-section active">
+                <div class="feature-grid">
+                    <div class="card">
+                        <h3>🤖 task [query]</h3>
+                        <p>Ask any technical question. <strong>Premium:</strong> No prefix needed.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🔍 tdebug [error]</h3>
+                        <p>Paste error logs for instant AI debugging and fixes.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🚀 ttechstack</h3>
+                        <p>Get AI recommendations for your next project's stack.</p>
+                    </div>
+                    <div class="card">
+                        <h3>💻 tcodetips</h3>
+                        <p>Learn best practices and modern coding patterns.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Economy Section -->
+            <div id="economy-cmds" class="cmd-section">
+                <div class="feature-grid">
+                    <div class="card">
+                        <h3>💰 tdaily</h3>
+                        <p>Claim your daily Gears ⚙️ and keep your streak alive.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🎮 tquiz</h3>
+                        <p>Take technical quizzes to earn Gears and experience.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🛒 tshop</h3>
+                        <p>Spend your earned Gears on items and premium trials.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🎒 tinventory</h3>
+                        <p>View your collected items, badges, and active boosts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Utility Section -->
+            <div id="utility-cmds" class="cmd-section">
+                <div class="feature-grid">
+                    <div class="card">
+                        <h3>📜 thelp</h3>
+                        <p>Interactive help menu with category selection.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🐙 tgithub</h3>
+                        <p>Search GitHub repositories and view stats directly.</p>
+                    </div>
+                    <div class="card">
+                        <h3>📊 tstats</h3>
+                        <p>View bot statistics and your personal performance.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🔔 tping</h3>
+                        <p>Check bot latency and API heartbeat status.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admin Section -->
+            <div id="admin-cmds" class="cmd-section">
+                <div class="feature-grid">
+                    <div class="card">
+                        <h3>🔨 tkick/tban</h3>
+                        <p>Essential server moderation tools for staff.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🔇 tmute/tunmute</h3>
+                        <p>Timeout users to keep the peace in your server.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🧹 tclear</h3>
+                        <p>Bulk delete messages to clean up channels.</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚙️ tsetup</h3>
+                        <p>Configure AI chat channels and server preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="premium" style="padding: 6rem 5%; text-align: center;">
+        <div class="section-title">
+            <h2><span class="gradient-text">✨ TechFlow Premium</span></h2>
+            <p style="font-size: 1.2rem; color: #ccc; max-width: 800px; margin: 1rem auto 3rem;">Elevate your development experience with elite AI capabilities, zero restrictions, and exclusive community status.</p>
+        </div>
+        
+        <div class="feature-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin-bottom: 4rem;">
+            <!-- Premium Plan -->
+            <div class="card" style="border: 2px solid #00f2ff; position: relative; background: rgba(0, 242, 255, 0.03);">
+                <div style="position: absolute; top: -15px; right: 10px; background: #00f2ff; color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.8rem;">BEST FOR DEVS</div>
+                <h3 style="color: #00f2ff; margin-top: 15px; font-size: 1.8rem;">🚀 Premium Elite</h3>
+                <div style="margin: 1.5rem 0; font-size: 2.5rem; font-weight: bold; color: #00f2ff;">$3<span style="font-size: 1.2rem; color: #aaa;">/month</span></div>
+                <p style="font-size: 1rem; color: #aaa; margin-bottom: 2rem;">Unleash the full power of TechFlow AI with zero interruptions.</p>
+                
+                <div style="text-align: left; margin: 2rem 0; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem;">
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #00f2ff; margin-right: 10px;">⚡</span> <strong>No-Prefix Access:</strong> Issue AI commands naturally.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #00f2ff; margin-right: 10px;">🔥</span> <strong>Zero Rate Limits:</strong> Unlimited AI usage, 24/7.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #00f2ff; margin-right: 10px;">🧠</span> <strong>2x AI Context:</strong> Deeper debugging for complex code.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #00f2ff; margin-right: 10px;">⚙️</span> <strong>1.5x Gears Multiplier:</strong> Earn rewards 50% faster.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #00f2ff; margin-right: 10px;">💎</span> <strong>Premium Badge:</strong> Stand out on your profile & leaderboard.</li>
+                    </ul>
+                </div>
+                <a href="https://dsc.gg/axoninnova" class="btn-glow" style="width: 100%; text-align: center;">Upgrade to Elite</a>
+            </div>
+
+            <!-- Founding 50 Plan -->
+            <div class="card" style="border: 2px solid #FFD700; background: rgba(255, 215, 0, 0.05); position: relative; transform: scale(1.05);">
+                <div style="position: absolute; top: -15px; right: 10px; background: #FFD700; color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.8rem;">ULTRA RARE (50 SPOTS)</div>
+                <h3 style="color: #FFD700; margin-top: 15px; font-size: 1.8rem;">👑 Founding Member</h3>
+                <div style="margin: 1.5rem 0; font-size: 2.5rem; font-weight: bold; color: #FFD700;">$2<span style="font-size: 1.2rem; color: #aaa;">/month</span></div>
+                <p style="font-size: 1rem; color: #FFD700; margin-bottom: 2rem; font-weight: bold;">🔒 Early Supporter Locked-In Price Forever</p>
+                
+                <div style="text-align: left; margin: 2rem 0; border-top: 1px solid rgba(255,215,0,0.2); padding-top: 1.5rem;">
+                    <p style="color: #fff; margin-bottom: 1rem; font-weight: bold;">Everything in Premium Elite PLUS:</p>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #FFD700; margin-right: 10px;">⭐</span> <strong>Lifetime Price Lock:</strong> Never pay a cent more, ever.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #FFD700; margin-right: 10px;">🏆</span> <strong>Founder Status:</strong> Rare badge & hall of fame spot.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #FFD700; margin-right: 10px;">🗳️</span> <strong>Governance:</strong> Direct vote on new features & tools.</li>
+                        <li style="margin: 0.8rem 0; color: #fff; display: flex; align-items: center;"><span style="color: #FFD700; margin-right: 10px;">🚀</span> <strong>V3 Early Access:</strong> Be the first to use next-gen tech.</li>
+                    </ul>
+                </div>
+                <a href="https://dsc.gg/axoninnova" class="btn-glow" style="background: linear-gradient(135deg, #FFD700, #FFA500); width: 100%; text-align: center;">Join the Founding 50</a>
+            </div>
+        </div>
+        
+        <div style="margin-top: 4rem; background: rgba(255,255,255,0.02); padding: 2rem; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05);">
+            <h3 style="color: #fff; margin-bottom: 1.5rem;">Why Developers Choose TechFlow Premium</h3>
+            <div class="feature-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <div style="text-align: left;">
+                    <h4 style="color: #00f2ff;">Max Productivity</h4>
+                    <p style="font-size: 0.9rem;">Eliminate the 't' prefix. Type questions like you're talking to a colleague.</p>
+                </div>
+                <div style="text-align: left;">
+                    <h4 style="color: #00f2ff;">Complex Debugging</h4>
+                    <p style="font-size: 0.9rem;">Premium AI remembers your previous errors, providing smarter context.</p>
+                </div>
+                <div style="text-align: left;">
+                    <h4 style="color: #00f2ff;">Priority Infrastructure</h4>
+                    <p style="font-size: 0.9rem;">Your requests jump to the front of the queue on our high-speed VPS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links" style="margin-bottom: 2rem; display: flex; justify-content: center; gap: 2rem;">
+            <a href="privacy.html" style="color: var(--primary); text-decoration: none;">Privacy Policy</a>
+            <a href="terms.html" style="color: var(--primary); text-decoration: none;">Terms of Service</a>
+        </div>
+        <div class="footer-buttons" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+            <a href="https://discord.com/oauth2/authorize?client_id=1445053735444283414&permissions=8&scope=bot" class="btn-footer">Add Me</a>
+            <a href="https://dsc.gg/axoninnova" class="btn-footer">Support</a>
+        </div>
+        <p>&copy; 2026 AxonInnovA community. All rights reserved.</p>
+        <p class="sub">Powered by AxonInnovA AI | MongoDB | Discord.py</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
